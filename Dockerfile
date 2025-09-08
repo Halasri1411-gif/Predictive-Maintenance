@@ -1,5 +1,6 @@
 # Use Python base image
-FROM python:3.9
+FROM python:3.11
+
 
 # Set working directory
 WORKDIR /app
@@ -15,4 +16,5 @@ EXPOSE 5000
 
 # Run Flask app
 CMD ["python", "app.py"]
+
 
